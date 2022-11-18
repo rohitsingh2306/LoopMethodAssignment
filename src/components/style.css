@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Navbar{
+    width: 100%;
+    height: 10%;
+    background: rgb(222, 104, 104);
+}
+.Heading1{
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+    padding-top: 20px;
+    width: 300px;
+}
+.Heading2{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-top: 0;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.images{
+   height: 200px;
+   width: 150px;
+}
+.products{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+.product{
+    margin-left: 16%;
+    height: auto;
+    width: 170px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.singleProduct{
+  padding-top: 30px;
+  padding-left: 30px;
+    width: 80%;
+    height: auto;
+    border: 2px solid black;
+}
+.singleImage{
+    width: 300px;
+    height: 400px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cartDisplay{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.cartSingleImage{
+    width: 100px;
+    height: 150px;
+}
+.cartSingleItem{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.smallHeading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.button1{
+    border-radius: 10px;
+    width: 90px;
+    cursor: pointer;
+    height: 30px;
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+}
+.number{
+    position: relative;
+    bottom: 50px;
+    right: 0px;
+    
+}
+.number{
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    transform: translate(0,-40%);
+    color: white;
+    font-size: 25px;
+}
+.inputnum{
+    height: 30px;
+}
+.detail{
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 30%;
+    border-radius: 10px;
+}
+.detail:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    
+    
+    width: 100%;
+    height: 10%;
+    background: black;
+}
+.footerHeading{
+    color:white;
+    width: 900px;
+   
+    font-size: 40px;
+    padding-top: 20px;
+    
+    padding-bottom: 30px;
+}
+.brandFoot{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+.brands{
+    width: 100px;
+    left: 10%;
+    right: 10%;
+   margin-left: 50%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.addToCart{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.addToCart:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.Home{
+    text-decoration: none;
+    
+    color: black;
+}
+.article{
+    height: 80%;
+}
+.CartName{
+    width: 250px;
+}
+.shoppingCart{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+.bold{
+    font-weight: bold;
+}
